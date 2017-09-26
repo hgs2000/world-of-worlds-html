@@ -1,0 +1,76 @@
+{
+  "nextEntryId": 17,
+  "nodes": [
+    {
+      "id": "4",
+      "name": "Cena",
+      "type": "scene"
+    },
+    {
+      "id": "11",
+      "name": "Jogador",
+      "type": null,
+      "children": [
+        {
+          "id": "0",
+          "name": "Mago",
+          "type": "sprite"
+        },
+        {
+          "id": "5",
+          "name": "Controle Jogador",
+          "type": "script"
+        },
+        {
+          "id": "15",
+          "name": "Cavaleiro",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Mapa",
+      "type": null,
+      "children": [
+        {
+          "id": "1",
+          "name": "Tile Set",
+          "type": "tileSet"
+        },
+        {
+          "id": "3",
+          "name": "Tile Map",
+          "type": "tileMap"
+        },
+        {
+          "id": "14",
+          "name": "Script",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Inimigos",
+      "type": null,
+      "children": [
+        {
+          "id": "6",
+          "name": "Sprite (1)",
+          "type": "sprite"
+        },
+        {
+          "id": "7",
+          "name": "Mago Inimigo",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Game",
+      "type": "script"
+    }
+  ]
+}

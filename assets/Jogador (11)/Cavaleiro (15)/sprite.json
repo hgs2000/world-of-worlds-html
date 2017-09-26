@@ -1,0 +1,86 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "wrapping": "clampToEdge",
+  "pixelsPerUnit": 100,
+  "framesPerSecond": 10,
+  "opacity": null,
+  "alphaTest": 0.1,
+  "frameOrder": "rows",
+  "grid": {
+    "width": 32,
+    "height": 32
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "Move_Down",
+      "startFrameIndex": 0,
+      "endFrameIndex": 3,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "Stop_Down",
+      "startFrameIndex": 0,
+      "endFrameIndex": 0,
+      "speed": 1
+    },
+    {
+      "id": "2",
+      "name": "Move_Up",
+      "startFrameIndex": 4,
+      "endFrameIndex": 7,
+      "speed": 1
+    },
+    {
+      "id": "3",
+      "name": "Stop_Up",
+      "startFrameIndex": 4,
+      "endFrameIndex": 4,
+      "speed": 1
+    },
+    {
+      "id": "4",
+      "name": "Move_Left",
+      "startFrameIndex": 8,
+      "endFrameIndex": 11,
+      "speed": 1
+    },
+    {
+      "id": "5",
+      "name": "Stop_Left",
+      "startFrameIndex": 8,
+      "endFrameIndex": 8,
+      "speed": 1
+    },
+    {
+      "id": "6",
+      "name": "Move_Right",
+      "startFrameIndex": 12,
+      "endFrameIndex": 15,
+      "speed": 1
+    },
+    {
+      "id": "7",
+      "name": "Stop_Right",
+      "startFrameIndex": 12,
+      "endFrameIndex": 12,
+      "speed": 1
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  }
+}
