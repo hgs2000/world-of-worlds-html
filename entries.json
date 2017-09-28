@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 17,
+  "nextEntryId": 23,
   "nodes": [
     {
       "id": "4",
@@ -7,24 +7,24 @@
       "type": "scene"
     },
     {
-      "id": "11",
-      "name": "Jogador",
+      "id": "20",
+      "name": "Medieval Sharp",
+      "type": "font"
+    },
+    {
+      "id": "19",
+      "name": "StartMenu",
       "type": null,
       "children": [
         {
-          "id": "0",
-          "name": "Mago",
-          "type": "sprite"
+          "id": "18",
+          "name": "Main Menu",
+          "type": "scene"
         },
         {
-          "id": "5",
-          "name": "Controle Jogador",
+          "id": "21",
+          "name": "Main Menu Behavior",
           "type": "script"
-        },
-        {
-          "id": "15",
-          "name": "Cavaleiro",
-          "type": "sprite"
         }
       ]
     },
@@ -68,8 +68,42 @@
       ]
     },
     {
-      "id": "16",
+      "id": "11",
+      "name": "Jogador",
+      "type": null,
+      "children": [
+        {
+          "id": "0",
+          "name": "Mago",
+          "type": "sprite"
+        },
+        {
+          "id": "15",
+          "name": "Cavaleiro",
+          "type": "sprite"
+        },
+        {
+          "id": "5",
+          "name": "Controle Jogador",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "17",
       "name": "Game",
+      "type": null,
+      "children": [
+        {
+          "id": "16",
+          "name": "GameMain",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "FPS Counter",
       "type": "script"
     }
   ]

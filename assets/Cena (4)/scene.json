@@ -86,7 +86,7 @@
             "width": 1.5,
             "height": 1.5,
             "offset": {
-              "x": -0.05,
+              "x": 0,
               "y": 0
             },
             "bounce": {

@@ -26,6 +26,18 @@
       "line": 0,
       "parentBehavior": null,
       "properties": []
+    },
+    "FPSBehavior": {
+      "scriptId": "22",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MainMenuBehavior": {
+      "scriptId": "21",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }
