@@ -1,16 +1,6 @@
 {
-  "nextEntryId": 23,
+  "nextEntryId": 30,
   "nodes": [
-    {
-      "id": "4",
-      "name": "Cena",
-      "type": "scene"
-    },
-    {
-      "id": "20",
-      "name": "Medieval Sharp",
-      "type": "font"
-    },
     {
       "id": "19",
       "name": "StartMenu",
@@ -25,6 +15,36 @@
           "id": "21",
           "name": "Main Menu Behavior",
           "type": "script"
+        },
+        {
+          "id": "28",
+          "name": "Camera",
+          "type": "script"
+        },
+        {
+          "id": "24",
+          "name": "Buttons",
+          "type": null,
+          "children": [
+            {
+              "id": "27",
+              "name": "New Game",
+              "type": null,
+              "children": []
+            },
+            {
+              "id": "25",
+              "name": "Options",
+              "type": null,
+              "children": [
+                {
+                  "id": "26",
+                  "name": "Option Button Behavior",
+                  "type": "script"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -105,6 +125,23 @@
       "id": "22",
       "name": "FPS Counter",
       "type": "script"
+    },
+    {
+      "id": "20",
+      "name": "Medieval Sharp",
+      "type": "font"
+    },
+    {
+      "id": "23",
+      "name": "Tests",
+      "type": null,
+      "children": [
+        {
+          "id": "4",
+          "name": "Test Zone",
+          "type": "scene"
+        }
+      ]
     }
   ]
 }

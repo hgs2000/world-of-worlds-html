@@ -37,6 +37,27 @@
       "scriptId": "21",
       "line": 0,
       "parentBehavior": null,
+      "properties": [
+        {
+          "name": "Game",
+          "type": "any"
+        },
+        {
+          "name": "runonce",
+          "type": "number"
+        }
+      ]
+    },
+    "OptionBtnBehavior": {
+      "scriptId": "26",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "CameraBehavior": {
+      "scriptId": "28",
+      "line": 0,
+      "parentBehavior": null,
       "properties": []
     }
   }

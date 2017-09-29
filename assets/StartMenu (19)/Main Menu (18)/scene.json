@@ -21,9 +21,17 @@
             },
             "depth": 0,
             "nearClippingPlane": 0.1,
-            "farClippingPlane": 1000
+            "farClippingPlane": 10
           },
           "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "CameraBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
         }
       ],
       "position": {
@@ -110,6 +118,13 @@
                 "opacity": null
               },
               "id": "0"
+            },
+            {
+              "type": "fMouseInput",
+              "config": {
+                "cameraActorName": "Camera"
+              },
+              "id": "1"
             }
           ],
           "position": {
@@ -151,6 +166,13 @@
                 "opacity": null
               },
               "id": "0"
+            },
+            {
+              "type": "fMouseInput",
+              "config": {
+                "cameraActorName": "Camera"
+              },
+              "id": "2"
             }
           ],
           "position": {
@@ -176,7 +198,49 @@
         {
           "id": "5",
           "name": "Options",
-          "children": [],
+          "children": [
+            {
+              "id": "9",
+              "name": "Fullscreen",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "20",
+                    "text": "Tela Cheia:",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": null,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 11.889201164245605,
+                "y": 1.241499900817871,
+                "z": 2
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1.0004114356019345,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
           "components": [
             {
               "type": "TextRenderer",
@@ -192,6 +256,21 @@
                 "opacity": null
               },
               "id": "0"
+            },
+            {
+              "type": "fMouseInput",
+              "config": {
+                "cameraActorName": "Camera"
+              },
+              "id": "1"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "OptionBtnBehavior",
+                "propertyValues": {}
+              },
+              "id": "2"
             }
           ],
           "position": {
@@ -254,62 +333,13 @@
           "visible": true,
           "layer": 0,
           "prefab": null
-        },
-        {
-          "id": "7",
-          "name": "FPS_Counter",
-          "children": [],
-          "components": [
-            {
-              "type": "Behavior",
-              "config": {
-                "behaviorName": "FPSBehavior",
-                "propertyValues": {}
-              },
-              "id": "0"
-            },
-            {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "20",
-                "text": "FPS: ",
-                "alignment": "left",
-                "verticalAlignment": "center",
-                "size": null,
-                "color": null,
-                "overrideOpacity": true,
-                "opacity": 0.45
-              },
-              "id": "1"
-            }
-          ],
-          "position": {
-            "x": -8.338038444519043,
-            "y": 4.7369208335876465,
-            "z": 22.675935745239258
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 0.5,
-            "y": 0.5,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
         }
       ],
       "components": [
         {
           "type": "Behavior",
           "config": {
-            "behaviorName": "MenuBehavior",
+            "behaviorName": "MainMenuBehavior",
             "propertyValues": {}
           },
           "id": "0"
@@ -329,6 +359,55 @@
       "scale": {
         "x": 1,
         "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "8",
+      "name": "FPS",
+      "children": [],
+      "components": [
+        {
+          "type": "TextRenderer",
+          "config": {
+            "formatVersion": 2,
+            "fontAssetId": "20",
+            "text": "FPS:",
+            "alignment": "left",
+            "verticalAlignment": "top",
+            "size": 128,
+            "color": null,
+            "overrideOpacity": true,
+            "opacity": null
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "FPSBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -8.887137413024902,
+        "y": 4.993694305419922,
+        "z": -1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
         "z": 1
       },
       "visible": true,

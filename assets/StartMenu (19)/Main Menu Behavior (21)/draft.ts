@@ -1,6 +1,6 @@
 class MainMenuBehavior extends Sup.Behavior {
 
-  Game;
+  g : Game;
   
   runonce: number = 0;
   cam: Sup.Camera = this.actor.camera;
