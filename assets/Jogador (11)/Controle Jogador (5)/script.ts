@@ -3,8 +3,7 @@ class PlayerWalkBehavior extends Sup.Behavior {
   Facing = "down";
   
   awake() {
-    Sup.ArcadePhysics2D.collides(this.actor.arcadeBody2D, Sup.ArcadePhysics2D.getAllBodies());
-    
+        
   }
   
   velocidade = 0.05;

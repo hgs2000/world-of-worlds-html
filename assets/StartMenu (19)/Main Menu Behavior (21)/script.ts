@@ -1,10 +1,7 @@
 class MainMenuBehavior extends Sup.Behavior {
 
-  Game;
-  
   runonce: number = 0;
-  cam: Sup.Camera = this.actor.camera;
-  
+    
   update() {
     let ray = new Sup.Math.Ray();
     ray.setOrigin(0,0,0);

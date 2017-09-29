@@ -39,10 +39,6 @@
       "parentBehavior": null,
       "properties": [
         {
-          "name": "Game",
-          "type": "any"
-        },
-        {
           "name": "runonce",
           "type": "number"
         }
@@ -56,6 +52,18 @@
     },
     "CameraBehavior": {
       "scriptId": "28",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "NewGameBehavior": {
+      "scriptId": "30",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "FullscreenOptionBehavior": {
+      "scriptId": "33",
       "line": 0,
       "parentBehavior": null,
       "properties": []

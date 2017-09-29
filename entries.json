@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 30,
+  "nextEntryId": 34,
   "nodes": [
     {
       "id": "19",
@@ -30,7 +30,13 @@
               "id": "27",
               "name": "New Game",
               "type": null,
-              "children": []
+              "children": [
+                {
+                  "id": "30",
+                  "name": "New Game Behavior",
+                  "type": "script"
+                }
+              ]
             },
             {
               "id": "25",
@@ -41,6 +47,23 @@
                   "id": "26",
                   "name": "Option Button Behavior",
                   "type": "script"
+                },
+                {
+                  "id": "31",
+                  "name": "Checkbox",
+                  "type": "sprite"
+                },
+                {
+                  "id": "32",
+                  "name": "Fullscreen",
+                  "type": null,
+                  "children": [
+                    {
+                      "id": "33",
+                      "name": "Fullscreen Option Behavior",
+                      "type": "script"
+                    }
+                  ]
                 }
               ]
             }
@@ -77,7 +100,7 @@
       "children": [
         {
           "id": "6",
-          "name": "Sprite (1)",
+          "name": "Projetil",
           "type": "sprite"
         },
         {

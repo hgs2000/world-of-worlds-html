@@ -27,8 +27,8 @@
         }
       ],
       "position": {
-        "x": -1.4901161193847656e-8,
-        "y": 0,
+        "x": -2.9802322387695312e-8,
+        "y": -7.450580596923828e-9,
         "z": 1
       },
       "orientation": {
@@ -76,28 +76,6 @@
             "propertyValues": {}
           },
           "id": "1"
-        },
-        {
-          "type": "ArcadeBody2D",
-          "config": {
-            "formatVersion": 2,
-            "type": "box",
-            "movable": true,
-            "width": 1.5,
-            "height": 1.5,
-            "offset": {
-              "x": 0,
-              "y": 0
-            },
-            "bounce": {
-              "x": 0,
-              "y": 0
-            },
-            "tileMapAssetId": null,
-            "tileSetPropertyName": null,
-            "layersIndex": null
-          },
-          "id": "4"
         }
       ],
       "position": {

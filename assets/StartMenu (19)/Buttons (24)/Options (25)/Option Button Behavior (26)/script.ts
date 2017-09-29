@@ -15,13 +15,13 @@ class OptionBtnBehavior extends Sup.Behavior {
   }
 
   onClick(){
-    //Game.cam.actor.move(10,0,0);
-    //Sup.log(Game.cam.getFOV);
+    this.actor.getChild("Fullscreen").setVisible(true);
     this.actor.getParent().getChildren().forEach(function (a){
       a.setVisible(false);
     });
-    this.actor.getChild("Fullscreen").setVisible(true);
-    
+    this.actor.setVisible(true);
+    //this.actor.getParent().getChild("Camera").camera = this.actor.getParent().getParent().getChild("Option Menu").getChild("Camera").camera;
+    this.actor.getParent().getParent();
   }
   
 }
