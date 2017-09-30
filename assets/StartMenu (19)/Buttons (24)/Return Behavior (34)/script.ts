@@ -1,4 +1,4 @@
-class OptionBtnBehavior extends Sup.Behavior {
+class ReturnBehavior extends Sup.Behavior {
   awake() {
     
     this.actor.fMouseInput.emitter.on("mouseEnter", () => {
@@ -10,10 +10,12 @@ class OptionBtnBehavior extends Sup.Behavior {
     this.actor.fMouseInput.emitter.on("leftClickPressed", () => {
       this.onClick();
     });
+    
   }
 
   onClick(){
-    this.actor.fMouseInput.getCameraComponent().actor.setPosition(20,0,0);
+    this.actor.fMouseInput.getCameraComponent().actor.setPosition(0,0,0);
   }
+  
 }
-Sup.registerBehavior(OptionBtnBehavior);
+Sup.registerBehavior(ReturnBehavior);

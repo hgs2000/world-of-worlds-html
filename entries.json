@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 34,
+  "nextEntryId": 44,
   "nodes": [
     {
       "id": "19",
@@ -39,10 +39,51 @@
               ]
             },
             {
+              "id": "39",
+              "name": "Load Game",
+              "type": null,
+              "children": [
+                {
+                  "id": "42",
+                  "name": "Load Games Behavior",
+                  "type": "script"
+                },
+                {
+                  "id": "43",
+                  "name": "Loadbox",
+                  "type": "sprite"
+                }
+              ]
+            },
+            {
               "id": "25",
               "name": "Options",
               "type": null,
               "children": [
+                {
+                  "id": "32",
+                  "name": "Fullscreen",
+                  "type": null,
+                  "children": [
+                    {
+                      "id": "33",
+                      "name": "Fullscreen Toggle Behavior",
+                      "type": "script"
+                    }
+                  ]
+                },
+                {
+                  "id": "41",
+                  "name": "FPS Toggle",
+                  "type": null,
+                  "children": [
+                    {
+                      "id": "40",
+                      "name": "FPS Toggle Behavior",
+                      "type": "script"
+                    }
+                  ]
+                },
                 {
                   "id": "26",
                   "name": "Option Button Behavior",
@@ -52,20 +93,25 @@
                   "id": "31",
                   "name": "Checkbox",
                   "type": "sprite"
-                },
-                {
-                  "id": "32",
-                  "name": "Fullscreen",
-                  "type": null,
-                  "children": [
-                    {
-                      "id": "33",
-                      "name": "Fullscreen Option Behavior",
-                      "type": "script"
-                    }
-                  ]
                 }
               ]
+            },
+            {
+              "id": "36",
+              "name": "Exit",
+              "type": null,
+              "children": [
+                {
+                  "id": "35",
+                  "name": "Exit Behavior",
+                  "type": "script"
+                }
+              ]
+            },
+            {
+              "id": "34",
+              "name": "Return Behavior",
+              "type": "script"
             }
           ]
         }

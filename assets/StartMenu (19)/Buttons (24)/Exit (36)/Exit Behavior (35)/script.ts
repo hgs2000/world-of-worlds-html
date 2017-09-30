@@ -1,6 +1,5 @@
-class OptionBtnBehavior extends Sup.Behavior {
+class ExitBehavior extends Sup.Behavior {
   awake() {
-    
     this.actor.fMouseInput.emitter.on("mouseEnter", () => {
       Sup.log("Entrou no botão "+ this.actor.getName());
     });
@@ -11,9 +10,12 @@ class OptionBtnBehavior extends Sup.Behavior {
       this.onClick();
     });
   }
-
+  
   onClick(){
-    this.actor.fMouseInput.getCameraComponent().actor.setPosition(20,0,0);
+    this.actor.fMouseInput.getCameraComponent().actor.setPosition(20,-12,0);
+    if (this.actor.getName() === "Yes"){
+      Sup.exit();
+    }
   }
 }
-Sup.registerBehavior(OptionBtnBehavior);
+Sup.registerBehavior(ExitBehavior);
