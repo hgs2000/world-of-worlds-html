@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 56,
+  "nextEntryId": 72,
   "nodes": [
     {
       "id": "19",
@@ -136,7 +136,7 @@
         },
         {
           "id": "49",
-          "name": "Assets",
+          "name": "Assets (DawnLike pack)",
           "type": null,
           "children": [
             {
@@ -177,6 +177,86 @@
             {
               "id": "55",
               "name": "Decor 2",
+              "type": "tileSet"
+            },
+            {
+              "id": "56",
+              "name": "Ore 1",
+              "type": "tileSet"
+            },
+            {
+              "id": "57",
+              "name": "Ore 2",
+              "type": "tileSet"
+            },
+            {
+              "id": "58",
+              "name": "Pit 1",
+              "type": "tileSet"
+            },
+            {
+              "id": "59",
+              "name": "Pit 2",
+              "type": "tileSet"
+            },
+            {
+              "id": "60",
+              "name": "Door 1",
+              "type": "tileSet"
+            },
+            {
+              "id": "61",
+              "name": "Door 2",
+              "type": "tileSet"
+            },
+            {
+              "id": "62",
+              "name": "Hill 1",
+              "type": "tileSet"
+            },
+            {
+              "id": "63",
+              "name": "Hill 2",
+              "type": "tileSet"
+            },
+            {
+              "id": "64",
+              "name": "Trap 1",
+              "type": "tileSet"
+            },
+            {
+              "id": "65",
+              "name": "Trap 2",
+              "type": "tileSet"
+            },
+            {
+              "id": "66",
+              "name": "Tree 1",
+              "type": "tileSet"
+            },
+            {
+              "id": "67",
+              "name": "Tree 2",
+              "type": "tileSet"
+            },
+            {
+              "id": "68",
+              "name": "Map 1",
+              "type": "tileSet"
+            },
+            {
+              "id": "69",
+              "name": "Map 2",
+              "type": "tileSet"
+            },
+            {
+              "id": "70",
+              "name": "Effect 1",
+              "type": "tileSet"
+            },
+            {
+              "id": "71",
+              "name": "Effect 2",
               "type": "tileSet"
             }
           ]
