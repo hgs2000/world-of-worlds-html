@@ -2,54 +2,55 @@
   "formatVersion": 1,
   "nodes": [
     {
-      "id": "3",
-      "name": "Camera",
-      "children": [],
-      "components": [
-        {
-          "type": "Camera",
-          "config": {
-            "formatVersion": 1,
-            "mode": "orthographic",
-            "fov": 45,
-            "orthographicScale": 10,
-            "viewport": {
-              "x": 0,
-              "y": 0,
-              "width": 1,
-              "height": 1
-            },
-            "depth": 0,
-            "nearClippingPlane": 0.1,
-            "farClippingPlane": 1000
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": -2.9802322387695312e-8,
-        "y": -7.450580596923828e-9,
-        "z": 1
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
-    },
-    {
       "id": "4",
       "name": "Player",
-      "children": [],
+      "children": [
+        {
+          "id": "3",
+          "name": "Camera",
+          "children": [],
+          "components": [
+            {
+              "type": "Camera",
+              "config": {
+                "formatVersion": 1,
+                "mode": "orthographic",
+                "fov": 45,
+                "orthographicScale": 10,
+                "viewport": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1,
+                  "height": 1
+                },
+                "depth": 0,
+                "nearClippingPlane": 0.1,
+                "farClippingPlane": 1000
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 1.595,
+            "z": 0.2
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.20000000298023224
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
       "components": [
         {
           "type": "SpriteRenderer",
@@ -79,8 +80,8 @@
         }
       ],
       "position": {
-        "x": 0.75,
-        "y": 0.5,
+        "x": 0,
+        "y": 0,
         "z": 0
       },
       "orientation": {
@@ -90,9 +91,48 @@
         "w": 1
       },
       "scale": {
-        "x": 5,
-        "y": 5,
+        "x": 2,
+        "y": 2,
         "z": 5
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "5",
+      "name": "Map",
+      "children": [],
+      "components": [
+        {
+          "type": "TileMapRenderer",
+          "config": {
+            "formatVersion": 1,
+            "tileMapAssetId": "72",
+            "tileSetAssetId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": -17.46268653869629,
+        "y": -1.5417231321334839,
+        "z": -1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 4,
+        "y": 4,
+        "z": 1
       },
       "visible": true,
       "layer": 0,

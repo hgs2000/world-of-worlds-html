@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 72,
+  "nextEntryId": 75,
   "nodes": [
     {
       "id": "19",
@@ -258,6 +258,11 @@
               "id": "71",
               "name": "Effect 2",
               "type": "tileSet"
+            },
+            {
+              "id": "74",
+              "name": "World",
+              "type": "tileSet"
             }
           ]
         }
@@ -299,6 +304,11 @@
           "id": "5",
           "name": "Controle Jogador",
           "type": "script"
+        },
+        {
+          "id": "72",
+          "name": "Tile Map",
+          "type": "tileMap"
         }
       ]
     },
