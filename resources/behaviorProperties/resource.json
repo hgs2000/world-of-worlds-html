@@ -21,12 +21,6 @@
       "parentBehavior": null,
       "properties": []
     },
-    "MapBehavior": {
-      "scriptId": "14",
-      "line": 0,
-      "parentBehavior": null,
-      "properties": []
-    },
     "FPSBehavior": {
       "scriptId": "22",
       "line": 0,

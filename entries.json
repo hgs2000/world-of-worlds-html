@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 44,
+  "nextEntryId": 56,
   "nodes": [
     {
       "id": "19",
@@ -119,23 +119,67 @@
     },
     {
       "id": "12",
-      "name": "Mapa",
+      "name": "Mapas",
       "type": null,
       "children": [
         {
-          "id": "1",
-          "name": "Tile Set",
-          "type": "tileSet"
+          "id": "44",
+          "name": "Nivel 1",
+          "type": null,
+          "children": [
+            {
+              "id": "45",
+              "name": "Mapa Lvl 1",
+              "type": "tileMap"
+            }
+          ]
         },
         {
-          "id": "3",
-          "name": "Tile Map",
-          "type": "tileMap"
-        },
-        {
-          "id": "14",
-          "name": "Script",
-          "type": "script"
+          "id": "49",
+          "name": "Assets",
+          "type": null,
+          "children": [
+            {
+              "id": "48",
+              "name": "Floor",
+              "type": "tileSet"
+            },
+            {
+              "id": "47",
+              "name": "Walls",
+              "type": "tileSet"
+            },
+            {
+              "id": "50",
+              "name": "Fence",
+              "type": "tileSet"
+            },
+            {
+              "id": "51",
+              "name": "Ground 1",
+              "type": "tileSet"
+            },
+            {
+              "id": "52",
+              "name": "Ground 2",
+              "type": "tileSet"
+            },
+            {
+              "id": "53",
+              "name": "Tile",
+              "type": "tileSet"
+            },
+            {
+              "id": "54",
+              "name": "Decor 1",
+              "type": "tileSet"
+            },
+            {
+              "id": "55",
+              "name": "Decor 2",
+              "type": "tileSet"
+            }
+          ]
         }
       ]
     },
