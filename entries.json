@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 75,
+  "nextEntryId": 76,
   "nodes": [
     {
       "id": "19",
@@ -131,6 +131,11 @@
               "id": "45",
               "name": "Mapa Lvl 1",
               "type": "tileMap"
+            },
+            {
+              "id": "75",
+              "name": "Map Collision",
+              "type": "script"
             }
           ]
         },
@@ -139,6 +144,11 @@
           "name": "Assets (DawnLike pack)",
           "type": null,
           "children": [
+            {
+              "id": "74",
+              "name": "World",
+              "type": "tileSet"
+            },
             {
               "id": "48",
               "name": "Floor",
@@ -258,11 +268,6 @@
               "id": "71",
               "name": "Effect 2",
               "type": "tileSet"
-            },
-            {
-              "id": "74",
-              "name": "World",
-              "type": "tileSet"
             }
           ]
         }
@@ -304,11 +309,6 @@
           "id": "5",
           "name": "Controle Jogador",
           "type": "script"
-        },
-        {
-          "id": "72",
-          "name": "Tile Map",
-          "type": "tileMap"
         }
       ]
     },

@@ -12,6 +12,14 @@
         {
           "name": "velocidade",
           "type": "number"
+        },
+        {
+          "name": "isMovingVert",
+          "type": "boolean"
+        },
+        {
+          "name": "isMovingHor",
+          "type": "boolean"
         }
       ]
     },
@@ -82,6 +90,12 @@
     },
     "BtnLoadGameBehavior": {
       "scriptId": "42",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MapCollisionBehavior": {
+      "scriptId": "75",
       "line": 0,
       "parentBehavior": null,
       "properties": []

@@ -4,5 +4,27 @@
     "width": 16,
     "height": 16
   },
-  "tileProperties": {}
+  "tileProperties": {
+    "8_39": {
+      "Solid": "aaaaa"
+    },
+    "9_41": {
+      "Solid": "aaaaaa"
+    },
+    "7_41": {
+      "Solid": "aaaaaa"
+    },
+    "7_40": {
+      "Solid": "aaaaaa"
+    },
+    "7_39": {
+      "Solid": "aaaaa"
+    },
+    "9_39": {
+      "Solid": "aaaaaa"
+    },
+    "15_1": {
+      "Solid": "Solid"
+    }
+  }
 }

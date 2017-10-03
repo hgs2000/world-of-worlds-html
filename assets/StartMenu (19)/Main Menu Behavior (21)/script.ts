@@ -11,12 +11,6 @@ class MainMenuBehavior extends Sup.Behavior {
     let {x, y} = Sup.Input.getMousePosition();
     x = (x + 1) / 2 * Sup.Input.getScreenSize().x;
     y = (1 - (y + 1) / 2) * Sup.Input.getScreenSize().y;
-    //Sup.log(x);
-    //Sup.log(y);
-    
-    /*for (let ht of hit){
-      Sup.log('Ator ${ht.actor.getName()} foi atingido pelo ray à distancia ${ht.distance}');
-    }*/
     
     if (this.runonce !== 1){
       Sup.log("Log:");

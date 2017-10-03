@@ -32,8 +32,8 @@
           ],
           "position": {
             "x": 0,
-            "y": 1.595,
-            "z": 0.2
+            "y": 0,
+            "z": 0.30539727666075933
           },
           "orientation": {
             "x": 0,
@@ -77,12 +77,34 @@
             "propertyValues": {}
           },
           "id": "1"
+        },
+        {
+          "type": "ArcadeBody2D",
+          "config": {
+            "formatVersion": 2,
+            "type": "box",
+            "movable": true,
+            "width": 0.7,
+            "height": 0.6,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "bounce": {
+              "x": 0,
+              "y": 0
+            },
+            "tileMapAssetId": null,
+            "tileSetPropertyName": null,
+            "layersIndex": null
+          },
+          "id": "2"
         }
       ],
       "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
+        "x": -5.271369934082031,
+        "y": 3.989145278930664,
+        "z": -1.2317808866500854
       },
       "orientation": {
         "x": 0,
@@ -108,7 +130,7 @@
           "type": "TileMapRenderer",
           "config": {
             "formatVersion": 1,
-            "tileMapAssetId": "72",
+            "tileMapAssetId": "45",
             "tileSetAssetId": null,
             "castShadow": false,
             "receiveShadow": false,
@@ -116,12 +138,42 @@
             "shaderAssetId": null
           },
           "id": "0"
+        },
+        {
+          "type": "ArcadeBody2D",
+          "config": {
+            "formatVersion": 2,
+            "type": "tileMap",
+            "movable": true,
+            "width": 1,
+            "height": 1,
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "bounce": {
+              "x": 0,
+              "y": 0
+            },
+            "tileMapAssetId": "45",
+            "tileSetPropertyName": null,
+            "layersIndex": "1"
+          },
+          "id": "1"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "MapCollisionBehavior",
+            "propertyValues": {}
+          },
+          "id": "2"
         }
       ],
       "position": {
         "x": -17.46268653869629,
         "y": -1.5417231321334839,
-        "z": -1
+        "z": -2.2882394790649414
       },
       "orientation": {
         "x": 0,
