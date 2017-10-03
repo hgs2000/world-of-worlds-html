@@ -3,7 +3,6 @@ class PlayerWalkBehavior extends Sup.Behavior {
   Facing = "down";
   
   awake() {
-    Sup.ArcadePhysics2D.collides(this.actor.arcadeBody2D, Sup.ArcadePhysics2D.getAllBodies());    
   }
   
   velocidade = 0.05;
@@ -11,9 +10,12 @@ class PlayerWalkBehavior extends Sup.Behavior {
   isMovingHor = false;
 
   update() {
+    Sup.ArcadePhysics2D.collides(this.actor.arcadeBody2D, Sup.ArcadePhysics2D.getAllBodies());    
     this.actor.arcadeBody2D.setVelocityMax(0.1, 0.1);
     this.actor.arcadeBody2D.setVelocityMin(-0.1, -0.1);
     let velocity = this.actor.arcadeBody2D.getVelocity();
+    velocity.x = 0;
+    velocity.y = 0;
     let direcao;
     
     if (!Sup.Input.isKeyDown("NONE")){
