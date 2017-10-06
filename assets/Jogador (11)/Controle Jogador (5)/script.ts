@@ -10,7 +10,7 @@ class PlayerWalkBehavior extends Sup.Behavior {
   isMovingHor = false;
 
   update() {
-    Sup.ArcadePhysics2D.collides(this.actor.arcadeBody2D, Sup.ArcadePhysics2D.getAllBodies());    
+    Sup.ArcadePhysics2D.collides(this.actor.arcadeBody2D, Sup.getActor("Mapas/Nivel 1/Mapa Lvl 1").arcadeBody2D);
     this.actor.arcadeBody2D.setVelocityMax(0.1, 0.1);
     this.actor.arcadeBody2D.setVelocityMin(-0.1, -0.1);
     let velocity = this.actor.arcadeBody2D.getVelocity();

@@ -84,8 +84,8 @@
             "formatVersion": 2,
             "type": "box",
             "movable": true,
-            "width": 0.7,
-            "height": 0.6,
+            "width": 1,
+            "height": 1,
             "offset": {
               "x": 0,
               "y": 0
@@ -102,9 +102,9 @@
         }
       ],
       "position": {
-        "x": -5.271369934082031,
-        "y": 3.989145278930664,
-        "z": -1.2317808866500854
+        "x": -6.085971832275391,
+        "y": 4.991856098175049,
+        "z": -1.2924302816390991
       },
       "orientation": {
         "x": 0,
@@ -160,14 +160,6 @@
             "layersIndex": "1"
           },
           "id": "1"
-        },
-        {
-          "type": "Behavior",
-          "config": {
-            "behaviorName": "MapCollisionBehavior",
-            "propertyValues": {}
-          },
-          "id": "2"
         }
       ],
       "position": {
